@@ -1,5 +1,5 @@
 # <h1>Hours Registration VBA APP </h1>
-Excel VBA APP to register hours on a weekly basis with secutiry and password protection. The App enables saving the data to a separate database file, adding new names, saving pdfs, and going though different weeks. 
+Excel VBA APP to register hours on a weekly basis with security and password protection. The App enables saving the data to a separate database file, adding new names, saving pdfs, and going though different weeks. 
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/19918869/165584944-dee22d6c-0a16-40a3-b854-6540c17a1c02.png">
 
@@ -41,3 +41,10 @@ Excel VBA APP to register hours on a weekly basis with secutiry and password pro
 <li> Button7_Click(): Function to go back 1 week with the dates.</li> 
 
 <h2>Script masterData.xlsb:</h2>
+<h3>Workbook modules</h3>
+<li> Workbook_Open() : Function to hide toolbar. </li>
+
+<h3>Modules</h3> 
+<li> getDataUrenregColumns(): Function to get the data created in the transfer sheet and perform lookup and paste value based on name</li> 
+<li> lookupInnervalue(): Function to perform formatting on the data using to show hourly data</li> 
+<li> deleteDataInput(): </li> 
