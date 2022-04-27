@@ -3,6 +3,11 @@ Excel VBA APP to register hours on a weekly basis with secutiry and password pro
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/19918869/165584944-dee22d6c-0a16-40a3-b854-6540c17a1c02.png">
 
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/19918869/165591072-81819c6c-7501-46fd-9728-aa6342289e89.png">
+
+<img width="402" alt="image" src="https://user-images.githubusercontent.com/19918869/165591125-5c65bb22-ae05-42d5-bd1a-095ac8e0b70c.png">
+
+
 <h2>Functionalities of the app:</h2>
  <div> 1 - Password protected so that people cannot manipulate prior filled in hours </div>
  <div> 2 - Functionality to add more people to the App </div> 
