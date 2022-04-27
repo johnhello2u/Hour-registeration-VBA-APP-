@@ -48,3 +48,5 @@ Excel VBA APP to register hours on a weekly basis with security and password pro
 <li> getDataUrenregColumns(): Function to get the data created in the transfer sheet and perform lookup and paste value based on name</li> 
 <li> lookupInnervalue(): Function to perform formatting on the data using to show hourly data</li> 
 <li> deleteDataInput(): </li> 
+<li> speed(): Function to speed up code execution by disabeling certain visual features.</li>
+<li> slow(): Function to go back to default settings.</li> 
