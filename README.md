@@ -1,5 +1,5 @@
-# <h1>Hours Registration VBA APP</h1>
-Excel VBA APP to register hours on a weekly basis with secutiry and password protection. The App enables saving the data to separate a database file. 
+# <h1>Hours Registration VBA APP </h1>
+Excel VBA APP to register hours on a weekly basis with secutiry and password protection. The App enables saving the data to a separate database file, adding new names, saving pdfs, and going though different weeks. 
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/19918869/165584944-dee22d6c-0a16-40a3-b854-6540c17a1c02.png">
 
@@ -22,11 +22,17 @@ Excel VBA APP to register hours on a weekly basis with secutiry and password pro
 <li> Workbook_SheetChange(): call upon time action that closes the workbook after 10 minutes </li>
 
 <h3>Modules</h3> 
--dataTrans(): requiring password and performs file transfer to database, saves a pdf of week, and cleans the current week 
-- clearfillinData(): function to clear data 
-- speed(): function to speed up code execution by disabeling certain visual features 
-- slow(): function to go back to default settings 
-- TimeSetting(): function to close and save workbook after specified amount of time
-- 
+-dataTrans(): General Function that requires a password and performs file transfer to database, saves a pdf of week, and cleans the current week.
+- clearfillinData(): Function to clear data 
+- speed(): Function to speed up code execution by disabeling certain visual features 
+- slow(): Function to go back to default settings 
+- TimeSetting(): Function to close and save workbook after specified amount of time
+- SelectSheetsToPrint(): Function saves the current current sheet in pdf format with the corresponding week as name
+- savewb(): Function used to perform a save of workbook and saving the inputted name to an audit trail. 
+- createOutputSheet(): Function creates a sheet with the data prepped in a table for transfer to the external database
+- deleteDataInput(): Function that deletes the transfer sheet 
+- add_name(): Function that let users add new names to the hour registration form 
+- Button6_Click(): Function to go forward 1 week with the dates 
+- Button7_Click(): Function to go back 1 week with the dates 
 
 <h2>Script masterData.xlsb:</h2>
