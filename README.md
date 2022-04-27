@@ -1,7 +1,7 @@
-# Hours Registration VBA APP
+# <h1>Hours Registration VBA APP</h1>
 Excel VBA APP to register hours for people and save to separate database
 
-Functionalities of the app:
+<h2>Functionalities of the app:</h2>
  <div> 1 - Password protected so that people cannot manipulate prior filled in hours </div>
  <div> 2 - Functionality to add more people to the App </div> 
  <div> 3 - Time limit so that App will close after XX time </div> 
@@ -14,5 +14,5 @@ The App Contains of two files:
 <br></br> 
 
 Script urenReg.xlsb:
-
+Workbook modules 
 
