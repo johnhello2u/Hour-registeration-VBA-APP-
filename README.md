@@ -2,13 +2,11 @@
 Excel VBA APP to register hours on a weekly basis with secutiry and password protection. The App enables saving the data to separate a database file. 
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/19918869/165584944-dee22d6c-0a16-40a3-b854-6540c17a1c02.png">
-<img width="410" alt="image" src="https://user-images.githubusercontent.com/19918869/165585197-4d689bcb-2326-4cba-9a85-a1162cd4338b.png">
-
 
 <h2>Functionalities of the app:</h2>
  <div> 1 - Password protected so that people cannot manipulate prior filled in hours </div>
  <div> 2 - Functionality to add more people to the App </div> 
- <div> 3 - Time limit so that App will close after XX time </div> 
+ <div> 3 - Time limit so that App will close after a certain amount of time </div> 
  <div> 4 - Saving of a weekly hours PDF file </div>
  <div> 5 - Saving of hours to seperate database </div> 
 
@@ -17,6 +15,9 @@ Excel VBA APP to register hours on a weekly basis with secutiry and password pro
 <div>2 masterData.xlsb : seperate database file where on a day-by-day basis hours are stored  </div> 
 <br></br> 
 
-Script urenReg.xlsb:
-Workbook modules 
+##Script urenReg.xlsb:
+Workbook modules
+ - Workbook_Open() : lock specific columnswith a password protection before open based on the current day of the week 
+ - Workbook_BeforeClose(): lock all the columns
+ - Workbook_SheetChange(): call upon time action that closes the workbook after 10 minutes 
 
