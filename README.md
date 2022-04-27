@@ -1,4 +1,4 @@
-# hour_registeration
+# Hours Registration VBA APP
 Excel VBA APP to register hours for people and save to separate database
 
 Functionalities of the app:
