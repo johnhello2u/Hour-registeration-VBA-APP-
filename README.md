@@ -13,7 +13,9 @@ The App Contains of two files:
 2 masterData.xlsb : seperate database file where on a day-by-day basis hours are stored 
 
 
+Script within urenReg.xlsb:
 
 
 
+<img width="655" alt="image" src="https://user-images.githubusercontent.com/19918869/165414460-b650ef46-d5e0-4b7f-b93e-188e95c0fdbb.png">
 
