@@ -15,9 +15,18 @@ Excel VBA APP to register hours on a weekly basis with secutiry and password pro
 <div>2 masterData.xlsb : seperate database file where on a day-by-day basis hours are stored  </div> 
 <br></br> 
 
-##Script urenReg.xlsb:
-Workbook modules
- - Workbook_Open() : lock specific columnswith a password protection before open based on the current day of the week 
- - Workbook_BeforeClose(): lock all the columns
- - Workbook_SheetChange(): call upon time action that closes the workbook after 10 minutes 
+<h2>Script urenReg.xlsb:</h2>
+<h3>Workbook modules</h3>
+- Workbook_Open() : lock specific columnswith a password protection before open based on the current day of the week 
+- Workbook_BeforeClose(): lock all the columns
+- Workbook_SheetChange(): call upon time action that closes the workbook after 10 minutes 
 
+<h3>Modules</h3> 
+-dataTrans(): requiring password and performs file transfer to database, saves a pdf of week, and cleans the current week 
+- clearfillinData(): function to clear data 
+- speed(): function to speed up code execution by disabeling certain visual features 
+- slow(): function to go back to default settings 
+- TimeSetting(): function to close and save workbook after specified amount of time
+- 
+
+<h2>Script masterData.xlsb:</h2>
