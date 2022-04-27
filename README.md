@@ -2,7 +2,7 @@
 Excel VBA APP to register hours for people and save to separate database
 
 Functionalities of the app:
-  1 - Password protected so that people cannot manipulate prior filled in hours
+ <div> 1 - Password protected so that people cannot manipulate prior filled in hours </div>
   2 - Functionality to add more people to the App 
   3 - Time limit so that App will close after XX time 
   4 - Saving of a weekly hours PDF file
