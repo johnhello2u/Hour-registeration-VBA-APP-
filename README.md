@@ -1,7 +1,7 @@
 # <h1>Hours Registration VBA APP</h1>
 Excel VBA APP to register hours on a weekly basis with secutiry and password protection. The App enables saving the data to separate a database file. 
 
-<h2>Functionalities of the app:</h2>
+<h2 style="color:blue;">Functionalities of the app:</h2>
  <div> 1 - Password protected so that people cannot manipulate prior filled in hours </div>
  <div> 2 - Functionality to add more people to the App </div> 
  <div> 3 - Time limit so that App will close after XX time </div> 
