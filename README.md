@@ -9,9 +9,9 @@ Functionalities of the app:
  <div> 5 - Saving of hours to seperate database </div> 
 <br></br>  
 The App Contains of two files: 
-1 urenReg.xlsb : this is the landing page where people can access the controls of the app (such as add users and register hours). Furthermore, main controls are also located here
-2 masterData.xlsb : seperate database file where on a day-by-day basis hours are stored 
-
+<div>1 urenReg.xlsb : this is the landing page where people can access the controls of the app (such as add users and register hours). Furthermore, main controls are also located here. </div> 
+<div>2 masterData.xlsb : seperate database file where on a day-by-day basis hours are stored  </div> 
+<br></br> 
 
 Script urenReg.xlsb:
 
