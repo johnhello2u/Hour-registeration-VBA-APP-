@@ -15,7 +15,7 @@ Excel VBA APP to register hours on a weekly basis with security and password pro
  <div> 4 - Saving of a weekly hours PDF file </div>
  <div> 5 - Saving of hours to seperate database </div> 
 
-<h2>The App Contains: </h2>
+<h2>App Components: </h2>
 <div>1 urenReg.xlsb : this is the landing page where people can access the controls of the app (such as add users and register hours). Furthermore, main controls are also located here. </div> 
 <div>2 masterData.xlsb : seperate database file where on a day-by-day basis hours are stored  </div> 
 <br></br> 
