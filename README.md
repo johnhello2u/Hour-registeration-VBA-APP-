@@ -1,5 +1,5 @@
 # <h1>Hours Registration VBA APP </h1>
-Excel VBA APP to register hours on a weekly basis with security and password protection. The App enables saving the data to a separate database file, adding new names, saving pdfs, and changing weeks dates. 
+Excel VBA APP to register hours on a weekly basis with security and password protection. The App enables saving the data to a separate database file, adding new names, saving pdfs, and changing dates. 
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/19918869/165584944-dee22d6c-0a16-40a3-b854-6540c17a1c02.png">
 
